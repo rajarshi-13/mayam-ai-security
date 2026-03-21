@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAYAM AI Security</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header>
+      <div class="logo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="shield-icon"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        <h1>MAYAM</h1>
+      </div>
+      <div class="status-dot online"></div>
+    </header>
+
+    <main>
+      <div class="hero">
+        <p class="tagline">AI-Powered Link Analysis</p>
+        <button id="analyzeBtn" class="primary-btn">
+          <span class="btn-text">Analyze This Page</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="arrow-icon"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </button>
+      </div>
+
+      <div id="loader" class="loader-container hidden">
+        <div class="spinner"></div>
+        <p>Scanning with MAYAM AI...</p>
+      </div>
+
+      <div id="result" class="result-container hidden">
+        <!-- Results will be injected here -->
+      </div>
+    </main>
+
+    <footer>
+      <p>MAYAM Intelligence &copy; 2026</p>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "MAYAM Security",
+  "version": "1.0",
+  "description": "Real-time cybersecurity assistant",
+
+  "permissions": ["activeTab"],
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Analyze Page"
+  }
+}
